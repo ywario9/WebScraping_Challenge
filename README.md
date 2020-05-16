@@ -1,13 +1,15 @@
-Scraping
+# Web Scraping Challenge
+
+
 The mission_to_mars.ipynb Jupyter notebook file contains all of the scraping code for this application. Specifically, I used BeautifulSoup, Pandas, and Requests/Splinter to scrape the following information about Mars from the following websites:
 
-NASA Mars News
+*NASA Mars News
 Scraped the latest news title and paragraph text.
-JPL Mars Space Images - Featured Image
+*JPL Mars Space Images - Featured Image
 Scraped the full size image url for the current featured Mars image.
-Mars Weather Twitter Account
+*Mars Weather Twitter Account
 Scraped the latest Mars weather tweet from the page.
-Mars Facts Website
+*Mars Facts Website
 Scraped the table containing facts about the planet. Then, used Pandas to convert the data to a HTML table string.
 USGS Astrogeology Website
 Scraped the name and image url for each of Mar's hemispheres and used a Python dictionary to store the data using the keys img_url and title. Then, appended the dictionary with the image url string and the hemisphere title to a list. This list contains one dictionary for each hemisphere.

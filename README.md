@@ -3,7 +3,7 @@
 
 The mission_to_mars.ipynb Jupyter notebook file contains all of the scraping code for this application. Specifically, I used BeautifulSoup, Pandas, and Requests/Splinter to scrape the following information about Mars from the following websites:
 
-*NASA Mars News
+* NASA Mars News
 Scraped the latest news title and paragraph text.
 *JPL Mars Space Images - Featured Image
 Scraped the full size image url for the current featured Mars image.

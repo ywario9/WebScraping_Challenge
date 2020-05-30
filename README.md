@@ -23,8 +23,3 @@ To do this, I did the following:
 * Created a root route /, which queries the Mongo database and passes the mars data into an HTML template to display the data.
 * Created a template HTML file called index.html that takes the mars data dictionary and displays all of the data in the appropriate HTML elements.
 
-
-## <a name="app"></a> MongDB and Flask Application
-
-After scraping the various sites for the information needed for the application, I used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
-
